@@ -29,7 +29,7 @@ int main ()
 {
     int x[] = {1,2,3,4,5};
     int n = 5;
-  printf("a) %d\n", searcha(x, n, 5));
+  printf("a) %d\n", searcha(x, n-1, 5));
   printf("b) %d\n", binarySearch(x,0, n - 1, 5));
   return 0;
 }
